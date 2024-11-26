@@ -32,6 +32,13 @@
             padding: 5px;
             color: #000; /* Устанавливаем цвет текста чёрным */
         }
+        .text-only {
+            max-width: 300px;
+            margin: 10px auto;
+            text-align: center;
+            padding: 5px;
+            color: #000;
+        }
         @media (max-width: 600px) {
             .gallery-item {
                 flex: 1 1 100%;
@@ -42,9 +49,8 @@
 <body>
 
     <div class="gallery">
-        <!-- Изображение 1 -->
-        <div class="gallery-item">
-            <alt="Main Screen">
+        <!-- Текст без изображения -->
+        <div class="text-only">
             <p><b>Task Overview:</b> All tasks are displayed on the main screen. Use the round button to record a task using your voice. The app will convert your voice into text and add it to the task list.</p>
         </div>
         <!-- Изображение 2 -->
