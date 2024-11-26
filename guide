@@ -5,7 +5,7 @@
     <title>Моя веб-страница</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* Ваши стили остаются без изменений */
+        /* Стили для вашей галереи */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -30,6 +30,7 @@
         .gallery-item p {
             text-align: center;
             padding: 5px;
+            color: #000; /* Устанавливаем цвет текста чёрным */
         }
         @media (max-width: 600px) {
             .gallery-item {
